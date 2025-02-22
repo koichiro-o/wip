@@ -1,0 +1,397 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "poppler_data": {
+        "pkg-path": "poppler_data"
+      },
+      "poppler_utils": {
+        "pkg-path": "poppler_utils"
+      },
+      "uv": {
+        "pkg-path": "uv"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "poppler_data",
+      "broken": false,
+      "derivation": "/nix/store/v51icklvvdk4zcpjka37h4i2cigpk87d-poppler-data-0.4.12.drv",
+      "description": "Encoding files for Poppler, a PDF rendering library",
+      "install_id": "poppler_data",
+      "license": "Unspecified free software license",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "name": "poppler-data-0.4.12",
+      "pname": "poppler_data",
+      "rev": "73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "rev_count": 755230,
+      "rev_date": "2025-02-18T08:17:47Z",
+      "scrape_date": "2025-02-20T02:25:42Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.4.12",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/vh55m1mbsh1di191ycc6840mljrl25l6-poppler-data-0.4.12"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poppler_data",
+      "broken": false,
+      "derivation": "/nix/store/wx38xkcfz4viyxljivgngwm6wpc4aigm-poppler-data-0.4.12.drv",
+      "description": "Encoding files for Poppler, a PDF rendering library",
+      "install_id": "poppler_data",
+      "license": "Unspecified free software license",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "name": "poppler-data-0.4.12",
+      "pname": "poppler_data",
+      "rev": "73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "rev_count": 755230,
+      "rev_date": "2025-02-18T08:17:47Z",
+      "scrape_date": "2025-02-20T02:25:42Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.4.12",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/29rfga1b68w1zcyiq3vzv2sh5vsv91v8-poppler-data-0.4.12"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poppler_data",
+      "broken": false,
+      "derivation": "/nix/store/qskwa3mhs2fkp69278mdpkp6zs0zx4bs-poppler-data-0.4.12.drv",
+      "description": "Encoding files for Poppler, a PDF rendering library",
+      "install_id": "poppler_data",
+      "license": "Unspecified free software license",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "name": "poppler-data-0.4.12",
+      "pname": "poppler_data",
+      "rev": "73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "rev_count": 755230,
+      "rev_date": "2025-02-18T08:17:47Z",
+      "scrape_date": "2025-02-20T02:25:42Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.4.12",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/lhy9npijm8dgk32kajqng34kbk0jbksd-poppler-data-0.4.12"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poppler_data",
+      "broken": false,
+      "derivation": "/nix/store/hn8i4zayjg864c5z2p5x1lcd0w53jm6l-poppler-data-0.4.12.drv",
+      "description": "Encoding files for Poppler, a PDF rendering library",
+      "install_id": "poppler_data",
+      "license": "Unspecified free software license",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "name": "poppler-data-0.4.12",
+      "pname": "poppler_data",
+      "rev": "73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "rev_count": 755230,
+      "rev_date": "2025-02-18T08:17:47Z",
+      "scrape_date": "2025-02-20T02:25:42Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.4.12",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/s25pvsl90sy9yhijj5i4arkhdqzzp1im-poppler-data-0.4.12"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poppler_utils",
+      "broken": false,
+      "derivation": "/nix/store/lz6i17a732v8skjy7k2544s2r7a9kf9z-poppler-utils-24.02.0.drv",
+      "description": "PDF rendering library",
+      "install_id": "poppler_utils",
+      "license": "[ GPL-2.0-or-later ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "name": "poppler-utils-24.02.0",
+      "pname": "poppler_utils",
+      "rev": "73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "rev_count": 755230,
+      "rev_date": "2025-02-18T08:17:47Z",
+      "scrape_date": "2025-02-20T02:25:42Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.02.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/54y5fnjy562f8mykir5fg8dicpn3j9kn-poppler-utils-24.02.0-dev",
+        "out": "/nix/store/4q4gmy3jz7sh0f99iyaphr6rx8aliia9-poppler-utils-24.02.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poppler_utils",
+      "broken": false,
+      "derivation": "/nix/store/prs3bkrw731a9b68czjfn3ifkq8jqlz7-poppler-utils-24.02.0.drv",
+      "description": "PDF rendering library",
+      "install_id": "poppler_utils",
+      "license": "[ GPL-2.0-or-later ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "name": "poppler-utils-24.02.0",
+      "pname": "poppler_utils",
+      "rev": "73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "rev_count": 755230,
+      "rev_date": "2025-02-18T08:17:47Z",
+      "scrape_date": "2025-02-20T02:25:42Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.02.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/bfms2w8vpafvb79fykfcslfly4j20gzc-poppler-utils-24.02.0-dev",
+        "out": "/nix/store/c2zh3q12g3rcagm5j4k6kzflpwzpx7zf-poppler-utils-24.02.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poppler_utils",
+      "broken": false,
+      "derivation": "/nix/store/32n4kq1xw8w7z5kpcgdqmbis1v8wsfpd-poppler-utils-24.02.0.drv",
+      "description": "PDF rendering library",
+      "install_id": "poppler_utils",
+      "license": "[ GPL-2.0-or-later ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "name": "poppler-utils-24.02.0",
+      "pname": "poppler_utils",
+      "rev": "73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "rev_count": 755230,
+      "rev_date": "2025-02-18T08:17:47Z",
+      "scrape_date": "2025-02-20T02:25:42Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.02.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/57bd9n4zh8rvc2pvd96i2cs4c44qyik6-poppler-utils-24.02.0-dev",
+        "out": "/nix/store/rlw5vjq8v7chmcr1rrkv7i9i11sa1v5l-poppler-utils-24.02.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poppler_utils",
+      "broken": false,
+      "derivation": "/nix/store/rm8rr5vplia8kagjp68qslkl0mzb840v-poppler-utils-24.02.0.drv",
+      "description": "PDF rendering library",
+      "install_id": "poppler_utils",
+      "license": "[ GPL-2.0-or-later ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "name": "poppler-utils-24.02.0",
+      "pname": "poppler_utils",
+      "rev": "73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "rev_count": 755230,
+      "rev_date": "2025-02-18T08:17:47Z",
+      "scrape_date": "2025-02-20T02:25:42Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.02.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/rfvfky2k0rp1wgsfiklybl7gpj6vfxj3-poppler-utils-24.02.0-dev",
+        "out": "/nix/store/bd16gcwfnq4bc9dncz400b0x8frpsd0c-poppler-utils-24.02.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "uv",
+      "broken": false,
+      "derivation": "/nix/store/ln2lidjdv4ypci7b918f7a12pv0wg1mk-uv-0.6.0.drv",
+      "description": "Extremely fast Python package installer and resolver, written in Rust",
+      "install_id": "uv",
+      "license": "[ Apache-2.0, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "name": "uv-0.6.0",
+      "pname": "uv",
+      "rev": "73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "rev_count": 755230,
+      "rev_date": "2025-02-18T08:17:47Z",
+      "scrape_date": "2025-02-20T02:25:42Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.6.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/w4nazrllmbx6kbp0bxwxxaz0axgk459x-uv-0.6.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "uv",
+      "broken": false,
+      "derivation": "/nix/store/mw3w00xyl09xlvwpyflmmq1ci2bd30am-uv-0.6.0.drv",
+      "description": "Extremely fast Python package installer and resolver, written in Rust",
+      "install_id": "uv",
+      "license": "[ Apache-2.0, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "name": "uv-0.6.0",
+      "pname": "uv",
+      "rev": "73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "rev_count": 755230,
+      "rev_date": "2025-02-18T08:17:47Z",
+      "scrape_date": "2025-02-20T02:25:42Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.6.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/w3gapvlvxj0qgw94ywfzgh2yz1wjsdrx-uv-0.6.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "uv",
+      "broken": false,
+      "derivation": "/nix/store/z7axc9d041gdmkqyss0agy4z099cj1q6-uv-0.6.0.drv",
+      "description": "Extremely fast Python package installer and resolver, written in Rust",
+      "install_id": "uv",
+      "license": "[ Apache-2.0, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "name": "uv-0.6.0",
+      "pname": "uv",
+      "rev": "73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "rev_count": 755230,
+      "rev_date": "2025-02-18T08:17:47Z",
+      "scrape_date": "2025-02-20T02:25:42Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.6.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/cx99nmyf12mzy5ynki0w0bjb5hlsmsj2-uv-0.6.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "uv",
+      "broken": false,
+      "derivation": "/nix/store/j12s854dp9gz5symcq90ryb55752a5y6-uv-0.6.0.drv",
+      "description": "Extremely fast Python package installer and resolver, written in Rust",
+      "install_id": "uv",
+      "license": "[ Apache-2.0, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "name": "uv-0.6.0",
+      "pname": "uv",
+      "rev": "73cf49b8ad837ade2de76f87eb53fc85ed5d4680",
+      "rev_count": 755230,
+      "rev_date": "2025-02-18T08:17:47Z",
+      "scrape_date": "2025-02-20T02:25:42Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.6.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/jss0dgj7sgq49rgqhz2f8a1l58dam6dr-uv-0.6.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
