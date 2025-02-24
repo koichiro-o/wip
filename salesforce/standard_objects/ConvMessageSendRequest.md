@@ -1,0 +1,248 @@
+#### ConvMessageSendRequest
+
+Represents a request to send a template-based messaging component to a series of messaging users in an enhanced WhatsApp,
+enhanced Apple Messages for Business, or Messaging for In-App and Web channel. This object is available in API version 60.0 and later.
+
+##### Supported Calls
+```
+describeSObjects(), getDeleted(), getUpdated(), query(), retrieve()
+
+ Special Access Rules
+
+```
+Messaging and its associated objects are available only in Enterprise, Unlimited, and Developer Editions for Service Cloud or Sales Cloud
+with the Digital Engagement add-on license.
+
+
+-----
+
+##### Fields
+
+**Field**
+```
+AllowExistingSessionStatus
+CompletedDate
+FailedMessageCount
+FailedMessageErrorReasons
+
+```
+
+**Type**
+picklist
+
+**Properties**
+Filter, Group, Restricted picklist, Sort
+
+**Description**
+Indicates whether the message can be sent only at certain times.
+
+Possible values are:
+
+**•** `Any—Send the message regardless of whether the messaging user is engaged in an`
+active messaging session with the business.
+
+**•** `Closed—Send the message unless the messaging user is engaged in a messaging`
+session with a status other than Error or Ended, in which case it is never sent.
+
+**•** `NonActive—Send the message unless the messaging user is engaged in a messaging`
+session with a status of Active, in which case it is never sent.
+
+**Type**
+dateTime
+
+**Properties**
+Filter, Nillable, Sort
+
+**Description**
+Date and time when the request is completed and all messages associated with the request
+are processed, meaning they were sent or failed to be sent.
+
+**Type**
+int
+
+**Properties**
+Defaulted on create, Filter, Group, Nillable, Sort
+
+**Description**
+The number of messages that failed to be delivered to a messaging user. For example, if a
+flow sends the message to a series of 50 messaging users and 4 don’t receive the message,
+this value is 4.
+
+**Type**
+textarea
+
+**Properties**
+Nillable
+
+**Description**
+The error reason for each of the failed messages. For example, if 4 messages fail to send, this
+field shows the error reason for each failed message.
+
+
+-----
+
+```
+FailedMessageIdentifiers
+InProgressMessageCount
+InProgressMessageIdentifiers
+Name
+PendingMessageCount
+PendingMessageIdentifiers
+
+```
+
+**Type**
+textarea
+
+**Properties**
+Nillable
+
+**Description**
+The IDs of the messages that failed to send. For example, if 4 messages fail to send, this field
+shows 4 message IDs.
+
+**Type**
+int
+
+**Properties**
+Defaulted on create, Filter, Group, Sort
+
+**Description**
+The number of messages in the process of being sent.
+
+**Type**
+string
+
+**Properties**
+Filter, Group, Nillable, Sort
+
+**Description**
+A list of IDs of the messages being sent.
+
+**Type**
+string
+
+**Properties**
+Autonumber, Defaulted on create, Filter, idLookup, Sort
+
+**Description**
+An auto-generated ID for the request that uses the format MSJ-{00000000}.
+
+**Type**
+int
+
+**Properties**
+Filter, Group, Sort
+
+**Description**
+The number of messages that haven’t yet been sent.
+
+**Type**
+textarea
+
+**Properties**
+Nillable
+
+
+-----
+
+```
+RequestStatus
+RequestType
+ShouldEnforceChannelConsent
+SuccessMessageCount
+
+```
+
+**Description**
+A list of IDs of the pending messages.
+
+**Type**
+picklist
+
+**Properties**
+Filter, Group, Restricted picklist, Sort
+
+**Description**
+The status of the request.
+
+Possible values are:
+
+**•** `Completed`
+
+**•** `Pending`
+
+**•** `In Progress—The system is actively trying to send the message. If a message can’t`
+be sent, the RequestStatus returns to Pending and sending is retried later.
+
+**Type**
+picklist
+
+**Properties**
+Filter, Group, Restricted picklist, Sort
+
+**Description**
+The type of request.
+
+Possible values are:
+
+**•** `SendNotificationMessages`
+
+**Type**
+boolean
+
+**Properties**
+Defaulted on create, Filter, Group, Sort
+
+**Description**
+Indicates whether the existing Messaging channel consent preferences are applied when
+determining who receives the message. Setting this value to `true` is the most common
+approach. The default value, false, allows you to add custom consent logic—for example,
+to customize a flow to send the message to both implicitly opted-in users and explicitly
+opted-in users.
+
+**Type**
+int
+
+**Properties**
+Defaulted on create, Filter, Group, Nillable, Sort
+
+
+-----
+
+```
+SuccessMessageIdentifiers
+TotalMessageCount
+
+##### Usage
+
+```
+
+**Description**
+The number of messages that were successfully sent to messaging users. Delivery may occur
+much later than sending, depending on factors such as the connectivity status of the recipient.
+Delivery is reflected in the messaging session transcript.
+
+**Type**
+textarea
+
+**Properties**
+Nillable
+
+**Description**
+A list of IDs of the messages that were sent.
+
+**Type**
+int
+
+**Properties**
+Filter, Group, Nillable, Sort
+
+**Description**
+The number of messages that the related flow attempted to send.
+
+This field is a calculated field.
+
+
+A ConvMessageSendRequest can be generated by a flow, Apex code, or REST API call that invokes the sendConversationMessages
+invocable action. Use the ConvMessageSendRequest object to query messages sent by the sendConversationMessages invocable action.
